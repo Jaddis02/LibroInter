@@ -1,0 +1,22 @@
+body {
+  font-family: 'Georgia', serif; /* Fuente similar a la de libros impresos */
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.book {
+    width: 600px; /* Ancho del libro */
+    height: 900px; /* Altura del libro */
+    background:url('../imagenes/portada.jpg');
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+  }
+
+.boton{
+    margin: 20px;
+}
